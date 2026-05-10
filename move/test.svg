@@ -1,5 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-  <script>
-    console.log("hello");
-  </script>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+
+    <script type="text/javascript">
+        <![CDATA[
+            console.log("SVG script executed");
+
+            document.addEventListener("DOMContentLoaded", () => {
+                console.log("DOM loaded from SVG");
+            });
+
+            alert("SVG Loaded");
+        ]]>
+    </script>
+
+    <circle cx="100" cy="100" r="80" fill="red"/>
 </svg>
